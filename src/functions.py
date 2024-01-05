@@ -32,4 +32,4 @@ def card_number(number_card: Any) -> Any:
 def date_converter(str_date: str) -> Any:
     """ Функция принимает строку и выдает дату в формате %d-%m-%Y """
     date_time_str = str_date[:10]
-    return datetime.datetime.strptime(date_time_str, '%Y-%m-%d').strftime('%d-%m-%Y')
+    return datetime.datetime.strptime(date_time_str, '%Y-%m-%d').strftime('%d-%m-%Y') 
